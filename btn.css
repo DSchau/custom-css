@@ -1,0 +1,655 @@
+body {
+    background: url(http://dustinschau.com/drop/BG.png) repeat !important;
+    background-color: #eef0f4 !important;
+}
+ 
+#logo {
+    background: url('http://dustinschau.com/drop/btn.png') top right no-repeat !important;
+    width: 490px !important;
+    height: 64px !important;
+    bottom: 8px !important;
+    left: 10px !important;
+    position: relative !important;
+}
+ 
+#menu1 {
+    margin-left: 105px !important;
+}
+ 
+#torrents .colhead {
+    color: rgb(63, 122, 158) !important;
+    text-shadow: #FFF 0px 1px 0px;
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top, #ffffff 0%, #ebebeb 35%, #c8c8c8 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(35%,#ebebeb), color-stop(100%,#c8c8c8)) !important; /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ffffff 0%,#ebebeb 35%,#c8c8c8 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #ffffff 0%,#ebebeb 35%,#c8c8c8 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #ffffff 0%,#ebebeb 35%,#c8c8c8 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #ffffff 0%,#ebebeb 35%,#c8c8c8 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#c8c8c8',GradientType=0 ); /* IE6-9 */
+    -webkit-box-shadow: inset 0px -1px 0px 0px #fff !important;
+    box-shadow: inset 0px -1px 0px 0px #fff !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.35) !important;
+}
+ 
+tr.colhead, tr.head, tr.colhead_dark, tr.colhead td, tr.head td, tr.colhead_dark td {
+    border: inherit !important;
+}
+ 
+#torrents table tr:nth-child(1) td {
+    border-right: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+ 
+#searchbars input {
+    margin-right: 10px !important;
+    color: rgba(0, 0, 0, 0.5) !important;
+    width: 95px !important;
+    border-left: none !important;
+}
+ 
+#searchbars form[action="torrents.php"] input[type="text"] {
+    padding-left: 30px !important;
+    padding-bottom: 0px !important
+    padding-top: 0px !important;
+    height: 14px !important;
+    border-left: none !important;
+    background: url('http://dustinschau.com/drop/search/Torrents.png') no-repeat !important;
+    background-position: 0 -1px !important;
+}
+ 
+#searchbars form[action="series.php"] input[type="text"] {
+    padding-left: 30px !important;
+    padding-bottom: 0px !important
+     padding-top: 0px !important;
+    height: 14px !important;
+    border-left: none !important;
+    background: url('http://dustinschau.com/drop/search/Series.png') no-repeat !important;
+    background-position: 0 -1px !important;
+}
+ 
+#searchbars form[action="actor.php"] input[type="text"] {
+    padding-left: 30px !important;
+    padding-bottom: 0px !important
+     padding-top: 0px !important;
+    height: 14px !important;
+    border-left: none !important;
+    background: url('http://dustinschau.com/drop/search/Actors.png') no-repeat !important;
+    background-position: 0 -1px !important;
+}
+ 
+#searchbars form[action="requests.php"] input[type="text"] {
+    padding-left: 30px !important;
+    padding-bottom: 0px !important
+     padding-top: 0px !important;
+    height: 14px !important;
+    border-left: none !important;
+    background: url('http://dustinschau.com/drop/search/Requests.png') no-repeat !important;
+    background-position: 0 -1px !important;
+}
+ 
+#searchbars form[action="forums.php"] input[type="text"] {
+    padding-left: 30px !important;
+    padding-bottom: 0px !important
+     padding-top: 0px !important;
+    height: 14px !important;
+    border-left: none !important;
+    background: url('http://dustinschau.com/drop/search/Forums.png') no-repeat !important;
+    background-position: 0 -1px !important;
+}
+
+#searchbars form[action="user.php"] input[type="text"] {
+padding-left: 30px !important;
+    padding-bottom: 0px !important
+     padding-top: 0px !important;
+    height: 14px !important;
+    border-left: none !important;
+    background: url('http://dustinschau.com/drop/search/Users.png') no-repeat !important;
+    background-position: 0 -1px !important;
+}
+
+#searchbars form input[type="text"]:focus {
+    color: rgba(0, 0, 0, 0.75) !important;
+    background-position: 0 -27px !important;
+}
+ 
+textarea, input[type="text"], input[name="search"], input[type="password"], .select {
+    padding: 8px !important;
+    background: white !important;
+    -webkit-border-radius: 4px !important;
+    -moz-border-radius: 4px !important;
+    border: 1px solid #ADADAD !important;
+    color: #999 !important;
+    -webkit-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.15) !important;
+    -moz-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.15) !important;
+    -webkit-background-clip: padding-box !important;
+}
+ 
+textarea:focus, input[type="text"]:focus, input[name="search"]:focus, input[type="password"]:focus {
+    color: #444 !important;
+    -webkit-box-shadow: inset -1px 1px 3px rgba(0, 0, 0, 0.15), 0 0 5px rgba(0, 97, 180, 0.5) !important;
+    -moz-box-shadow: inset -1px 1px 3px rgba(0, 0, 0, 0.15), 0 0 5px rgba(0, 97, 180, 0.5) !important;
+}
+ 
+form[name="filter"] {
+    display: none;
+}
+ 
+#torrents h2 img {
+    margin-left: 121px !important;
+}
+ 
+#users h2 img {
+    margin-left: 0px !important;
+}
+ 
+#donation {
+    display: none !important;
+}
+ 
+.alertbar {
+    border: 2px solid #186b9f !important;
+    font-size: 1px;
+    color: #3C9BD7;
+}
+ 
+.alertbar a {
+    color: #FFF !important;
+    font-size: 12px !important;
+    padding-left: 20px !important;
+    background: url(http://dustinschau.com/drop/Mail.png) center left no-repeat !important;
+    text-indent: 9999px !important;
+    padding-right: 10px !important;
+}
+ 
+.alertbar a:hover {
+    color: #186b9f !important;
+    background: url(http://dustinschau.com/drop/MailHover.png) center left no-repeat !important;
+}
+ 
+.alertbar #del_announce {
+    background: url(http://dustinschau.com/drop/Delete.png) center left no-repeat !important;
+    padding-left: 16px !important;
+}
+ 
+.alertbar #del_announce:hover {
+    background: url(http://dustinschau.com/drop/DeleteHover.png) center left no-repeat !important;
+}
+ 
+#torrent_table td span {
+    float: right;
+    padding-top: 9px !important;
+}
+ 
+#torrents #content table a {
+    font-size: 16px;
+}
+ 
+tr.colhead_dark a, td.body a, td.avatar a {
+    font-size: inherit !important;
+}
+ 
+tr.colhead_dark a {
+    color: white !important;
+}
+ 
+.main_column .torrent_table a {
+    font-size: 12px !important;
+}
+ 
+#series .main_column .torrent_table tr:nth-child(2n+2) {
+    background-color: #f6f7f9 !important;
+}
+ 
+#torrents .main_column .torrent_table tr.group_torrent {
+    background-color: #f6f7f9 !important;
+}
+ 
+.main_column .torrent_table .group:nth-child(1) {
+    background-color: white !important;
+}
+ 
+#series td button {
+    padding: 3px !important;
+}
+ 
+#series span img {
+    position: relative !important;
+    top: 5px !important;
+}
+ 
+#torrent_table td div:first-of-type {
+    display: none !important;
+}
+ 
+a .body {
+    display: none !important;
+}
+ 
+td {
+    border-right: 1px solid #F3F0EE !important;
+}
+ 
+#series table td:nth-last-child(1) {
+    border-right: none !important;
+}
+ 
+td a:hover {
+    color: #104b6e !important;
+}
+ 
+#torrent_table {
+    border-right: none !important;
+}
+ 
+#torrents #torrent_table tr:nth-child(2n+3) {
+    background-color: #f6f7f9 !important;
+}
+ 
+#torrents .colhead a {
+    color: rgb(63, 122, 158) !important;
+    text-shadow: rgba(255, 255, 255, 0.75) 0px 1px 0px;
+}
+ 
+#torrents .colhead a:hover {
+    color: #104b6e !important;
+}
+ 
+.Scene {
+    color: orangered !important;
+}
+ 
+.P2P {
+    color: red !important;
+}
+ 
+.User {
+    color: orange !important;
+}
+ 
+.Internal {
+    color: Green !important;
+    font-weight: lighter !important;
+}
+ 
+.None {
+    color: Gray !important;
+}
+ 
+.P2P, .User, .Internal, .None, .Scene {
+    font-family: "HelveticaNeue";
+}
+ 
+.MKV {
+    color: darkred !important;
+}
+ 
+#searchbars {
+    padding-top: 20px !important;
+}
+ 
+#searchbars input {
+    padding: 5px !important;
+    font-size: 12px !important;
+    border-radius: 2px !important;
+    outline: none !important;
+}
+ 
+#searchbars input:focus {
+    border: 1px solid #7D7B7A !important;
+}
+ 
+.contenth {
+    border: none !important;
+}
+ 
+.contenth textarea {
+    border: 1px solid #AAA !important;
+    border-radius: 5px !important;
+    outline: none !important;
+    padding: 5px !important;
+    color: grey !important;
+    resize: vertical !important;
+}
+ 
+.contenth textarea:focus {
+    border: 1px solid #555 !important;
+}
+ 
+.b1h, .b2h, .b3h, .b4h, .headh {
+    display: none !important;
+}
+ 
+#userinfo {
+    float: right;
+    margin-top: 25px !important;
+    width: 425px !important;
+}
+ 
+#userinfo_minor {
+    visibility: hidden !important;
+}
+ 
+#disclaimer_container {
+    display: none !important;
+}
+ 
+.filter_torrents a {
+    font-size: inherit !important;
+}
+ 
+/*
+.box.pad.center a {
+     background: rgba(241,70,25,0.85) url(http://dustinschau.com/drop/highlight.png) repeat-x 0 50% !important;
+     padding: 3px 6px 4px 6px !important;
+     -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+     border-radius: 4px;
+     border: 1px solid rgba(164,63,36,0.8) !important;
+     font-weight: bold !important;
+     text-shadow: rgba(0, 0, 0, .2) 0 1px 1px !important;
+}
+ 
+.box.pad.center a:hover {
+     background: rgba(241,70,25,0.95)   url(http://dustinschau.com/drop/highlight.png) repeat-x 0 50% !important;
+     border: 1px solid rgba(164,63,36,0.9) !important;
+     padding: 3px 6px 4px 6px !important;
+     -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+     border-radius: 4px !important;
+     font-weight: bold !important;
+}
+*/
+ 
+input[type="submit"], input[type="button"], .box.pad.center a {
+    background: rgba(0, 0, 0, 0.07) url(http://dustinschau.com/drop/highlight.png) repeat-x 0 50% !important;
+    padding: 3px 6px 4px 6px !important;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: #858585 !important;
+    border: 1px solid #CCC !important;
+    font-weight: bold !important;
+    font-size: 10px !important;
+    text-shadow: none !important;
+}
+ 
+input[type="submit"]:hover, input[type="button"]:hover, .box.pad.center a:hover {
+    background: rgba(0, 0, 0, 0.15) url(http://dustinschau.com/drop/highlight.png) repeat-x 0 50% !important;
+    border-color: #BBB !important;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px !important;
+    font-weight: bold !important;
+    color: #555 !important;
+}
+ 
+.body form input[type="text"] {
+    position: relative !important;
+    top: 10px !important;
+}
+ 
+.body form input[type="submit"] {
+    position: relative !important;
+    top: 9px !important;
+    padding-bottom: 3px !important;
+    padding-top: 3px !important;
+}
+ 
+#searchbars ul {
+    background-position: right center !important;
+}
+ 
+#playbutton {
+    visibility: hidden;
+    display: none !important;
+}
+ 
+.ui-widget-content {
+    color: #404040 !important;
+}
+ 
+#btn_text, #tvdb_text, #imdb_text, #tvrage_text, #tv_text, #wiki_text {
+    color: #EEE !important;
+}
+ 
+#tabs, #btn, .ui-widget-header, #edit_summary {
+   
+}
+ 
+#tabs {
+    height: auto !important;
+    max-height: 650px !important;
+}
+ 
+#summary_votes_btn, #summary_votes_tvdb, #summary_votes_imdb, #summary_votes_tvrage, #summary_votes_tvcom, #summary_votes_wiki {
+    color: #EEE !important;
+}
+ 
+#torrent_table a[title="Report"] img {
+    visibility: hidden;
+    display: none;
+}
+ 
+#torrent_table a[title="Download"] img,  #top10 a[title="Download"] img{
+    visibility: hidden;
+}
+ 
+#torrent_table a[title="Download"], #top10 a[title="Download"]{
+    background: url('http://dustinschau.com/drop/DL.png') 0 center no-repeat !important;
+}
+ 
+#series a[title="Download"], #top10 a[title="Download"] {
+    background: url('http://dustinschau.com/drop/DL.png') 0 center no-repeat !important;
+    width: 16px !important;
+    height: 16px !important;
+    float: right !important;
+    text-indent: -9999px !important;
+    visibility: visible !important;
+}
+ 
+#series td span, #top10 td span  {
+    visibility: hidden;
+}
+ 
+#series td a span, #top10 td a span {
+    visibility: visible !important;
+}
+ 
+#torrent_table a[title="Download"] {
+    top: 4px !important;
+    position: relative !important;
+}
+ 
+.main_column .torrent_table a[title="Download"] {
+    background: url('http://dustinschau.com/drop/DL.png') 0 center no-repeat !important;
+    width: 16px !important;
+    height: 16px !important;
+    text-indent: -9999px !important;
+    visibility: visible !important;
+}
+ 
+.main_column .torrent_table a[title="Report"] {
+    background: url('http://dustinschau.com/drop/Report.png') 0 center no-repeat !important;
+    width: 16px !important;
+    height: 16px !important;
+    text-indent: -9999px !important;
+    visibility: visible !important;
+}
+ 
+.main_column .torrent_table a[href^="magnet"] {
+    background: url('http://dustinschau.com/drop/Magnet.png') 0 center no-repeat !important;
+    width: 16px !important;
+    height: 16px !important;
+    text-indent: -9999px !important;
+    visibility: visible !important;
+}
+ 
+.main_column .torrent_table a[title="RequestLink"] {
+    background: url('http://dustinschau.com/drop/Request.png') 0 center no-repeat !important;
+    width: 16px !important;
+    height: 16px !important;
+    text-indent: -9999px !important;
+    visibility: visible !important;
+}
+ 
+.main_column .torrent_table a[title="RequestLink"],
+.main_column .torrent_table a[href^="magnet"],
+.main_column .torrent_table a[title="Report"],
+.main_column .torrent_table a[title="Download"] {
+    display: inline-block;
+}
+ 
+.main_column .torrent_table td span {
+    float: right;
+    visibility: hidden;
+}
+ 
+.main_column .torrent_table td span {
+    visibility: hidden;
+}
+ 
+.main_column .torrent_table td a span {
+    visibility: visible !important;
+}
+ 
+.main_column .torrent_table td span img {
+    visibility: visible !important;
+}
+ 
+/*#torrent_table a[title="Report"] {  
+     background: url('http://dustinschau.com/drop/Report.png') 0 center no-repeat !important;
+}*/
+ 
+.colhead td:nth-child(2):before {
+    font-size: 16px !important;
+}
+ 
+img[src$="episode-sd.png"] {
+    content: '';
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    background-image: url("http://dustinschau.com/drop/SDEpisode.png");
+}
+ 
+img[src$="episode-hd.png"] {
+    content: '';
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    background-image: url("http://dustinschau.com/drop/HDEpisode.png");
+}
+ 
+img[src$="series-sd.png"] {
+    content: '';
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    background-image: url("http://dustinschau.com/drop/SDSeason.png");
+}
+ 
+img[src$="series-hd.png"] {
+    content: '';
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    background-image: url("http://dustinschau.com/drop/HDSeason.png");
+}
+ 
+img[src$="20x.png"] {
+    content: '';
+    display: inline-block;
+    width: 48px;
+    height: 16px;
+    background-image: url("http://dustinschau.com/drop/20xUpload.png");
+}
+ 
+img[src$="auto.png"] {
+    content: '';
+    display: inline-block;
+    width: 48px;
+    height: 16px;
+    background: url("http://dustinschau.com/drop/AutoUL.png");
+}
+ 
+img[src$="ipod.png"] {
+    content: '';
+    display: inline-block;
+    width: 48px;
+    height: 16px;
+    background-image: url("http://dustinschau.com/drop/iPodReady.png");
+}
+ 
+img[src$="fast.png"] {
+    content: '';
+    display: inline-block;
+    width: 48px;
+    height: 16px;
+    background-image: url("http://dustinschau.com/drop/FastDL.png");
+}
+ 
+img[src$="nuked.png"] {
+    content: '';
+    display: inline-block;
+    width: 48px;
+    height: 16px;
+    background-image: url("http://dustinschau.com/drop/Nuked.png");
+}
+ 
+img[src$="new.png"] {
+    content: '';
+    display: inline-block;
+    width: 48px;
+    height: 16px;
+    background-image: url("http://dustinschau.com/drop/NewUL.png");
+}
+ 
+img[src$="foreign.png"] {
+    content: '';
+    display: inline-block;
+    width: 48px;
+    height: 16px;
+    background-image: url("http://dustinschau.com/drop/Foreign.png");
+}
+ 
+img[src$="20x.png"], img[src$="foreign.png"], img[src$="new.png"], img[src$="nuked.png"], img[src$="fast.png"], img[src$="ipod.png"], img[src$="auto.png"] {
+    margin-bottom: 2px !important;
+}
+ 
+#torrent_table img[src$="snatched.png"] {
+    content: '';
+    display: inline-block;
+    width: 13px;
+    height: 15px;
+    background-image: url("http://dustinschau.com/drop/table/Snatched.png") !important;
+    background-position: left top !important;
+    margin-left: 3px !important;
+    margin-top: 2px !important;
+}
+ 
+#torrent_table img[src$="seeders.png"] {
+    content: '';
+    display: inline-block;
+    width: 11px;
+    height: 15px;
+    background-image: url("http://dustinschau.com/drop/table/Seeders.png");
+    background-position: left top !important;
+    margin-left: 4px !important;
+    margin-top: 2px !important;
+}
+ 
+#torrent_table img[src$="leechers.png"] {
+    content: '';
+    display: inline-block;
+    width: 11px;
+    height: 15px;
+    margin-left: 4px !important;
+    margin-right: 4px !important;
+    margin-top: 2px !important;
+    background-image: url("http://dustinschau.com/drop/table/Leechers.png");
+    background-position: left top !important;
+}
+ 
+#torrent_table img[src$="snatched.png"]:hover, #torrent_table img[src$="seeders.png"]:hover, #torrent_table img[src$="leechers.png"]:hover {
+    background-position: left bottom !important;
+}
